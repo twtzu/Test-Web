@@ -1,3 +1,33 @@
+let playerName = "";
+
+const nameInputDiv = document.getElementById("nameInput");
+const welcomeDiv = document.getElementById("welcomeMessage");
+const startBtn = document.getElementById("startBtn");
+const nameLabel = document.getElementById("nameLabel");
+const playerNameInput = document.getElementById("playerNameInput");
+
+function resetPlayer() {
+    playerName = "";
+    nameLabel.textContent = "Masukkan Nama:";
+}
+
+startBtn.addEventListener("click", function() {
+    playerName = playerNameInput.value.trim();
+    if (playerName === "") {
+        Swal.fire("Error!", "Please enter your name.", "error");
+    } else {
+        Swal.fire("Success!", `Welcome, ${playerName}!`, "success");
+        nameLabel.textContent = "Nama Anda adalah: " + playerName;
+        nameInputDiv.style.display = "none";
+        welcomeDiv.style.display = "block";
+    }
+});
+
+endBtn.addEventListener("click", function() {
+    resetPlayer();
+});
+
+
 const questions = [{
         number: 1,
         question: "What is the capital of France?",
@@ -80,21 +110,77 @@ function generateQuestion() {
   `;
 questionDiv.appendChild(questionElement);
 }
-
 function checkAnswer() {
-if (!currentQuestion) {
-  alert("Please generate a question first.");
-  return;
-}
-const selectedAnswer = document.querySelector("input[type=radio]:checked");
-if (!selectedAnswer) {
-  alert("Please select an answer.");
-  return;
-}
-const userAnswer = selectedAnswer.value;
-if (userAnswer === currentQuestion.answer) {
-  alert("Correct!");
-} else {
-  alert(`Incorrect. The correct answer is: ${currentQuestion.answer}`);
-}
+  if (!currentQuestion) {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Oops...',
+      text: 'Please generate a question first.',
+    });
+    return;
+  }
+  const selectedAnswer = document.querySelector("input[type=radio]:checked");
+  if (!selectedAnswer) {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Oops...',
+      text: 'Please select an answer.',
+    });
+    return;
+  }
+  const userAnswer = selectedAnswer.value;
+  if (userAnswer === currentQuestion.answer) {
+    Swal.fire({
+      icon: 'success',
+      title: 'Correct!',
+      showCancelButton: true,
+      confirmButtonText: 'Close',
+      cancelButtonText: 'See Details',
+      reverseButtons: true
+    }).then((result) => {
+      if (result.isConfirmed) {
+      } else if (result.dismiss === Swal.DismissReason.cancel) {
+        Swal.fire({
+          title: `Question ${currentQuestion.number}: ${currentQuestion.question}`,
+          html: `The correct answer is: ${currentQuestion.answer}`,
+          imageUrl: 'test.png',
+          imageWidth: 400,
+          imageHeight: 200,
+          imageAlt: 'Custom image',
+          confirmButtonText: 'Close',
+          showCancelButton: false,
+          reverseButtons: true
+        }).then((result) => {
+          if (result.isConfirmed) {
+          }
+        });
+      }
+    });
+  } else {
+    Swal.fire({
+      icon: 'error',
+      title: 'Incorrect',
+      text: `The correct answer is: ${currentQuestion.answer}`,
+      showCancelButton: true,
+      confirmButtonText: 'Close',
+      cancelButtonText: 'See Details',
+      reverseButtons: true
+    }).then((result) => {
+      if (result.isConfirmed) {
+        generateQuestion();
+      } else if (result.dismiss === Swal.DismissReason.cancel) {
+        Swal.fire({
+          title: `Question ${currentQuestion.number}: ${currentQuestion.question}`,
+          html: `The correct answer is: ${currentQuestion.answer}`,
+          confirmButtonText: 'Close',
+          showCancelButton: false,
+          reverseButtons: true
+        }).then((result) => {
+          if (result.isConfirmed) {
+            generateQuestion();
+          }
+        });
+      }
+    });
+  }
 }
