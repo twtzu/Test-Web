@@ -10,21 +10,39 @@
             margin-bottom: 10px;
         }
     </style>
+    <!-- include SweetAlert2 CSS and JavaScript files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
+
+
 
 <body>
     <h1>Quiz App</h1>
-    <label>
+
+    <div id="nameInput">
+        <label for="playerNameInput">Masukkan Nama:</label>
+        <input type="text" id="playerNameInput">
+        <button id="startBtn">Start Game</button>
+    </div>
+    <div id="welcomeMessage" style="display: none;">
+        <p id="nameLabel"></p>
+        <p> Welcome to the game! <br> Pada kotak nomor berapakah anda berada?
+        </p>
+    </div>
+
     Select question number:
     <select id="selectedNumber">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-    </select>
-  </label>
-    <button id="generateBtn">Generate</button>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </label>
     <div id="questionDiv"></div>
-    <button id="submitBtn">Submit</button>
+    <button id="generateBtn">Generate Question</button>
+    <button id="submitBtn">Submit Answer</button>
+    <button id="endBtn">Akhiri game</button>
     <script src="quiz.js"></script>
 </body>
 
