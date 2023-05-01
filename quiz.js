@@ -467,16 +467,4 @@ function checkAnswer() {
 //   images: 'reboisasi.jpg'
 // },
 
-// {
-//   number: 3,
-//   question: "",
-//   choices: ["", 
-//             "", 
-//             "",
-//             ""],
-//   answer: "",
-//   details: "",
-//   images: 'reboisasi.jpg'
-// },
-
 // ];
