@@ -12,7 +12,7 @@ let questions = [];
 
 function fetchQuestions() {
     console.log("fetchQuestions function called");
-    fetch("http://192.168.1.7:5555/fisika/questions.json")
+    fetch("questions.json")
         .then((response) => response.json())
         .then((data) => {
             console.log("Questions fetched from server:", data);
