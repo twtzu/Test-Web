@@ -2,8 +2,9 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Quiz App</title>
+    <title>Fisika</title>
     <style>
         label {
             display: block;
@@ -13,22 +14,73 @@
     <!-- include SweetAlert2 CSS and JavaScript files -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="style.css"></script>
+    <!-- <script src="http://192.168.1.7:5555/fisika/style.css"></script> -->
 </head>
 
-
+<style>
+    @font-face {
+        font-family: 'MyFont';
+        src: url('Montserrat-SemiBold.ttf');
+    }
+    
+    body {
+        font-family: 'MyFont';
+        line-height: 0.9;
+    }
+    
+    input[type="text"]+label {
+        font-family: 'MyFont';
+    }
+    
+    button {
+        font-family: 'MyFont';
+    }
+    
+    option {
+        font-family: 'MyFont';
+    }
+    
+    select {
+        font-family: 'MyFont';
+    }
+    
+    label {
+        font-family: 'MyFont';
+    }
+    
+    html,
+    body {
+        margin: 3vw;
+        height: 88%;
+        align-items: center;
+    }
+    
+    html {
+        border: 0.2vw solid black;
+        border-radius: 25px;
+    }
+    
+    body {
+        margin: 12vw 6vw 0vw 6vw;
+        text-align: center;
+    }
+    
+    input[type="text"]+label {
+        text-align: left;
+    }
+</style>
 
 <body>
-    <h1>Quiz App</h1>
+    <h1>Generator Soal</h1>
 
     <div id="nameInput">
         <label for="playerNameInput">Masukkan Nama:</label>
         <input type="text" id="playerNameInput">
-        <button id="startBtn">Start Game</button>
+        <button id="startBtn">Mulai</button>
     </div>
     <div id="welcomeMessage" style="display: none;">
         <p id="nameLabel"></p>
-        <p> Welcome to the game! <br> Pada kotak nomor berapakah anda berada?
+        <p> Pada kotak nomor berapakah anda berada?
         </p>
     </div>
 
@@ -52,7 +104,7 @@
             <option value="16">16. Mengefisiensikan Logistik</option>
             <option value="17">17. Penanganan Penebangan Liar</option>
             <option value="18">18. Perluasan Industri</option>
-            <option value="5">19. Pertemuan Internasional</option>
+            <option value="3">19. Pertemuan Internasional</option>
             <option value="20">20. Recycle</option>
             <option value="21">21. Replace</option>
             <option value="10">22. Komunitas</option>
@@ -70,10 +122,10 @@
         </select>
     </label>
     <div id="questionDiv"></div>
-    <button id="generateBtn" disabled>Generate</button>
-    <button id="submitBtn">Submit Answer</button>
-    <button id="endBtn">Akhiri game</button>
-    <script src="quiz.js"></script>
+    <button id="generateBtn" disabled>Soal</button>
+    <button id="submitBtn">Cek</button>
+    <button id="endBtn">Ulang</button>
+    <script src="http://192.168.1.7:5555/fisika/quiz.js"></script>
 </body>
 
 </html>
