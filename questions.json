@@ -1,18 +1,796 @@
 [{
-        "number": 1,
-        "question": "What is the capital of France?",
-        "choices": ["Paris", "London", "Berlin"],
-        "answer": "Paris",
-        "details": "Paris is the capital of France, also known as the city of love",
-        "images": "test.png"
+        "numbers": [1, 3, 20],
+        "question": " Apa yang dimaksud dengan reboisasi?",
+        "choices": [
+            "A. Penggundulan hutan secara massal",
+            "B. Proses penghijauan kembali lahan yang dulunya ditanami pohon",
+            "C. Pemanenan hutan secara teratur untuk dijual",
+            "D. Perkebunan besar-besaran dengan spesies pohon yang sama"
+        ],
+        "answer": "B. Proses penghijauan kembali lahan yang dulunya ditanami pohon",
+        "details": "Reboisasi adalah proses penanaman kembali pohon atau pembuatan hutan baru di lahan yang sebelumnya telah rusak atau terdegradasi. Tujuan dari reboisasi adalah untuk memulihkan dan memperbaiki fungsi hutan serta mengurangi dampak negatif perusakan hutan tersebut"
     },
 
     {
-        "number": 1,
-        "question": "What is the capital of France?",
-        "choices": ["Paris", "London", "Berlin"],
-        "answer": "Paris",
-        "details": "Paris is the capital of France, also known as the city of love",
-        "images": "test.png"
+        "numbers": [1, 3],
+        "question": " Apa dampak positif dari reboisasi terhadap pemanasan global?",
+        "choices": ["A. Mengurangi jumlah karbon dioksida dalam atmosfer",
+            "B. Proses penghijauan kembali lahan yang dulunya ditanami pohon",
+            "C. Meningkatkan kebakaran hutan",
+            "D. Menurunkan kualitas udara"
+        ],
+        "answer": "A. Mengurangi jumlah karbon dioksida dalam atmosfer",
+        "details": "Pohon-pohon yang ditanam dalam reboisasi dapat menyerap karbon dioksida dari atmosfer melalui proses fotosintesis, sehingga mengurangi konsentrasi gas rumah kaca dan mengurangi efek pemanasan global.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": " Mengapa reboisasi dapat membantu mengurangi pemanasan global?",
+        "choices": ["A. Karena pohon dapat menyerap karbon dioksida dari udara dan mengubahnya menjadi oksigen",
+            "B. Karena pohon dapat menghasilkan gas rumah kaca",
+            "C. Karena pohon dapat meningkatkan suhu di sekitarnya",
+            "D. Karena pohon dapat menghasilkan karbon monoksida"
+        ],
+        "answer": "A. Karena pohon dapat menyerap karbon dioksida dari udara dan mengubahnya menjadi oksigen",
+        "details": "Pohon-pohon yang ditanam dalam reboisasi dapat menyerap karbon dioksida dari atmosfer melalui proses fotosintesis, sehingga mengurangi konsentrasi gas rumah kaca dan mengurangi efek pemanasan global. ",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": " Apa manfaat lain dari reboisasi selain membantu mengurangi pemanasan global?",
+        "choices": ["A. Meningkatkan keanekaragaman hayati",
+            "B. Menurunkan kualitas air",
+            "C. Meningkatkan erosi tanah",
+            "D. Meningkatkan emisi gas rumah kaca"
+        ],
+        "answer": "A. Meningkatkan keanekaragaman hayati",
+        "details": "Pohon-pohon yang ditanam dapat memperbaiki kondisi tanah dan air di sekitarnya serta memberikan habitat bagi flora dan fauna yang mungkin telah terancam karena kerusakan hutan.",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": " Apa yang harus dipertimbangkan dalam memilih spesies pohon untuk reboisasi?",
+        "choices": ["A. Daya tahan terhadap hama dan penyakit",
+            "B. Kemampuan untuk berbuah",
+            "C. Kemampuan menyerap gas rumah kaca",
+            "D. Kemampuan untuk menghasilkan oksigen"
+        ],
+        "answer": "A. Daya tahan terhadap hama dan penyakit",
+        "details": "Pertimbangan daya tahan terhadap hama dan penyakit sangat penting karena pohon yang rentan terhadap serangan hama dan penyakit dapat menyebabkan kegagalan dalam reboisasi. ",
+        "images": "reboisasi.jpg"
+    },
+
+
+    {
+        "numbers": [1, 3],
+        "question": " Apa manfaat dari reboisasi dalam upaya mitigasi pemanasan global?",
+        "choices": ["A. Menyerap karbon dioksida dan menghasilkan oksigen",
+            "B. Meningkatkan konsentrasi gas rumah kaca di atmosfer",
+            "C. Meningkatkan suhu global",
+            "D. Meningkatkan penggunaan bahan bakar fosil"
+        ],
+        "answer": "A. Menyerap karbon dioksida dan menghasilkan oksigen",
+        "details": "Pohon-pohon yang ditanam dalam reboisasi dapat menyerap karbon dioksida dari atmosfer melalui proses fotosintesis, sehingga mengurangi konsentrasi gas rumah kaca dan mengurangi efek pemanasan global.",
+        "images": "reboisasi.jpg"
+    },
+
+
+    {
+        "numbers": [1, 3],
+        "question": " Apa yang dimaksud dengan agroforestri?",
+        "choices": ["A. Sistem pengelolaan lahan yang mengintegrasikan tanaman pertanian dengan tanaman hutan",
+            "B. Penanaman pohon pada lahan gambut",
+            "C. Teknik pertanian berbasis teknologi tinggi",
+            "D. Pemanenan kayu tanpa melakukan penghutanan"
+        ],
+        "answer": "A. Sistem pengelolaan lahan yang mengintegrasikan tanaman pertanian dengan tanaman hutan",
+        "details": "Agroforestri adalah suatu sistem pengelolaan lahan yang mengintegrasikan tanaman pertanian atau peternakan dengan pohon-pohon dalam suatu pola tertentu. Agroforestri mengkombinasikan tanaman tahunan, semusim, dan pohon-pohon dalam satu lahan dengan cara yang terorganisir dan terencana",
+        "images": "reboisasi.jpg"
+    },
+
+
+    {
+        "numbers": [1, 3],
+        "question": "Apa tantangan terbesar dalam menjalankan program reboisasi?",
+        "choices": ["a. Kurangnya kesadaran masyarakat mengenai pentingnya menjaga hutan",
+            "b. Biaya yang mahal untuk menjalankan program reboisasi",
+            "c. Terbatasnya lahan yang tersedia untuk penanaman kembali hutan",
+            "d. Semua jawaban di atas benar"
+        ],
+        "answer": "A. Keterbatasan dana",
+        "details": "",
+        "images": "reboisasi.jpg"
+    },
+
+
+    {
+        "numbers": [1, 3, 9],
+        "question": "Apa yang dimaksud dengan hutan kota?",
+        "choices": ["A. Hutan yang tumbuh di daerah perkotaan",
+            "B. Hutan yang dikelola oleh pemerintah kota",
+            "C. Hutan yang digunakan sebagai tempat rekreasi di perkotaan",
+            "D. Hutan yang dijadikan sebagai kawasan pemukiman penduduk di perkotaan"
+        ],
+        "answer": "A. Hutan yang tumbuh di daerah perkotaan",
+        "details": "Hutan kota adalah area penghijauan yang dibuat di dalam atau sekitar kota dengan tujuan untuk memberikan manfaat lingkungan dan kesehatan bagi warga kota. Hutan kota dapat berupa taman kota, jalur hijau, atau kawasan hutan kecil yang terletak di tengah-tengah kawasan perkotaan.",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": "Berapa luas hutan yang hilang setiap tahunnya akibat deforestasi?",
+        "choices": ["a. Kurang dari 5 juta hektar",
+            "b. 5-10 juta hektar",
+            "c. 10-15 juta hektar",
+            "d. Lebih dari 15 juta hektar"
+        ],
+        "answer": "c 10-15 juta hektar",
+        "details": "Menurut data FAO (Food and Agriculture Organization), selama 90-2020, rata-rata 10,1 juta hektar hutan hilang setiap tahunnya di seluruh dunia.",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": "Di negara mana program reboisasi berhasil menambahkan lebih dari 13 juta hektar hutan baru antara tahun 2000-2010?",
+        "choices": ["a. Indonesia",
+            "b. Brazil",
+            "c. China",
+            "d. India"
+        ],
+        "answer": "c. China",
+        "details": "Menurut data FAO, antara tahun 2000-2010, China berhasil menambahkan kurang lebih 13,7 juta hektar hutan baru melalui program reboisasi.",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": "Berapa banyak karbon yang dapat diserap oleh 1 hektar hutan mangrove dalam setahun?",
+        "choices": ["a. 10 ton",
+            "b. 20 ton",
+            "c. 30 ton",
+            "d. 40 ton"
+        ],
+        "answer": "c. 30 ton",
+        "details": "",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": "Jenis pohon apa yang paling efektif dalam menyerap karbon dioksida dari atmosfer?",
+        "choices": ["a. Pohon mangrove",
+            "b. Pohon pinus",
+            "c. Pohon eukaliptus",
+            "d. Pohon oak"
+        ],
+        "answer": "a. Pohon mangrove",
+        "details": "Menurut penelitian yang dilakukan oleh The Blue Carbon Initiative, pohon mangrove dapat menyerap karbon dioksida hingga 4 kali lebih banyak daripada jenis pohon lainnya.",
+        "images": "reboisasi.jpg"
+    },
+    {
+        "numbers": [1, 3],
+        "question": "Apa yang menjadi penyebab utama deforestasi di Amazon?",
+        "choices": ["a. Pembangunan infrastruktur",
+            "b. Perkebunan kelapa sawit",
+            "c. Pembukaan lahan untuk pertanian",
+            "d. Pengambilan kayu ilegal"
+        ],
+        "answer": "c. Pembukaan lahan untuk peternakan",
+        "details": "Data dari Global Forest Watch menunjukkan bahwa antara tahun 2002 hingga 20 lebih dari 400 juta hektar hutan hilang di seluruh dunia. Sekitar 24% hilangnya hutan tersebut disebabkan oleh deforestasi yang disebabkan oleh pertanian, 24% oleh penebangan kayu secara ilegal, % oleh pembukaan lahan untuk peternakan, 11% oleh kebakaran hutan, 8% oleh pertambangan, dan 14% oleh penyebab lainnya",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": "Apa yang dimaksud dengan istilah 'hutan primer?'",
+        "choices": ["a. Hutan yang belum pernah diusik oleh manusia",
+            "b. Hutan yang dikelola secara lestari",
+            "c. Hutan yang pernah diusik tetapi kemudian direboisasi",
+            "d. Hutan yang terletak di daerah tropis"
+        ],
+        "answer": "a. Hutan yang belum pernah diusik oleh manusia",
+        "details": "Hutan primer merupakan hutan alami yang tumbuh sebagai tahap akhir, dimana siklus/tahapan dari hutan ini terjadi secara alami dan tidak dengan campur tangan manusia",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [1, 3],
+        "question": "Apa yang dimaksud dengan hutan sekunder?",
+        "choices": ["a. Hutan yang belum pernah diusik oleh manusia",
+            "b. Hutan yang pernah diusik tetapi kemudian direboisasi",
+            "c. Hutan yang terletak di daerah tropis",
+            "d. Hutan yang dikelola secara lestari"
+        ],
+        "answer": "b. Hutan yang pernah diusik tetapi kemudian direboisasi",
+        "details": "Hutan sekunder adalah hutan yang sebelumnya telah dialami deforestasi atau degradasi, tetapi kemudian pulih dengan tumbuhnya kembali pohon-pohon dan tanaman lainnya. ",
+        "images": "reboisasi.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": " Mengapa restorasi perairan penting dalam menangani pemanasan global?",
+        "choices": ["A. Restorasi perairan dapat mengurangi penggunaan bahan bakar fosil",
+            "B. Restorasi perairan dapat mengurangi produksi emisi gas rumah kaca",
+            "C. Restorasi perairan dapat meningkatkan kualitas air dan memperkuat ekosistem ",
+            "D. Restorasi perairan dapat mempercepat laju pemanasan global"
+        ],
+        "answer": "C. Restorasi perairan dapat meningkatkan kualitas air dan memperkuat ekosistem ",
+        "details": "Restorasi perairan biasanya dilakukan untuk memperbaiki kualitas air dan mengembalikan keanekaragaman hayati di perairan yang terdampak oleh aktivitas manusia, seperti pertanian, industri, atau pembangunan pemukiman. Restorasi perairan juga dapat membantu meningkatkan fungsi ekosistem perairan, seperti sebagai sumber daya air bersih dan habitat bagi ikan dan organisme air lainnya.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": " Apa contoh program restorasi perairan yang dilakukan oleh pemerintah Indonesia?",
+        "choices": ["A. Program pembuatan waduk di seluruh wilayah Indonesia",
+            "B. Program pengurangan penggunaan bahan bakar fosil oleh masyarakat",
+            "C. Program penanaman mangrove dan pemulihan ekosistem perairan pantai",
+            "D. Program pengolahan air minum di daerah perkotaan"
+        ],
+        "answer": "C. Program penanaman mangrove dan pemulihan ekosistem perairan pantai",
+        "details": "",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": " Apa manfaat restorasi ekosistem mangrove dalam mengurangi dampak pemanasan global?",
+        "choices": ["A. Menyerap emisi gas rumah kaca dari industri dan kendaraan",
+            "B. Mengurangi jumlah limbah plastik di laut",
+            "C. Meningkatkan produksi oksigen dan mengurangi kadar karbon dioksida di atmosfer",
+            "D. Menjaga kesehatan populasi ikan dan menjaga keseimbangan ekosistem perairan"
+        ],
+        "answer": "D. Menjaga kesehatan populasi ikan dan menjaga keseimbangan ekosistem perairan",
+        "details": "Mangrove melindungi garis pantai dari abrasi dan badai, serta menyerap karbon dioksida dari atmosfer. Namun, terumbu karang yang rusak dan perusakan habitat di sekitar pantai dapat mempengaruhi keseimbangan ekosistem perairan dan berdampak buruk pada populasi ikan. Dengan melakukan restorasi ekosistem mangrove, maka kesehatan populasi ikan dan keseimbangan ekosistem perairan dapat dijaga.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": " Metode restorasi perairan yang melibatkan pemindahan atau penanaman tanaman air dan tumbuhan yang berkaitan dengan perairan disebut:",
+        "choices": ["A. Aquaponik",
+            "B. Riparian buffer",
+            "C. Pemulihan lahan basah",
+            "D. Revegetasi"
+        ],
+        "answer": "D. Revegetasi",
+        "details": "Metode restorasi perairan yang melibatkan pemindahan atau penanaman tanaman air dan tumbuhan yang berkaitan dengan perairan disebut revegetasi. Metode ini dilakukan untuk meningkatkan kualitas habitat perairan, memperbaiki kualitas air, dan mencegah erosi pantai. Revegetasi dapat dilakukan dengan menanam vegetasi air seperti teratai, eceng gondok, dan lamun, yang akan memberikan perlindungan dan tempat berkembang biak bagi berbagai jenis ikan dan hewan air.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": "Restorasi perairan dapat mengurangi dampak pemanasan global dengan cara",
+        "choices": ["A. Mengurangi suhu air di perairan",
+            "B. Menghilangkan semua spesies invasif di perairan",
+            "C. Meningkatkan kekerasan air di perairan",
+            "D. Mengurangi aliran air di perairan"
+        ],
+        "answer": "A. Mengurangi suhu air di perairan",
+        "details": "Hal ini dapat dicapai dengan menanam vegetasi di sekitar perairan, seperti mangrove atau tanaman air lainnya, yang dapat menyerap panas dari matahari dan mengurangi efek panas dari permukaan air",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": "Mangrove, salt marsh, dan seagrass mampu menyimpan karbon dalam tanaman dan tanah. Berapa perkiraan jumlah karbon yang dapat disimpan oleh ekosistem wetland?",
+        "choices": ["a. 1-5 ton per hektar",
+            "b. 10-15 ton per hektar",
+            "c. 20-25 ton per hektar",
+            "d. 30-35 ton per hektar"
+        ],
+        "answer": "c. 20-25 ton per hektar",
+        "details": "Mangrove, rawa asin, dan seagrass memiliki kemampuan untuk menyerap dan menyimpan karbon, sementara lahan basah berperan sebagai tempat penimbunan karbon yang besar. Menurut penelitian yang dilakukan oleh Pendleton et al. (2012), ekosistem wetland pantai mampu menyimpan rata-rata sekitar 24,2 ton karbon per hektar.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": "Bagaimana ekosistem wetland pantai dapat mempengaruhi pemanasan global?",
+        "choices": ["a. Meningkatkan efisiensi fotosintesis dan penyerapan karbon dioksida",
+            "b. Menyebabkan peningkatan emisi gas rumah kaca",
+            "c. Meningkatkan suhu udara di sekitar pantai",
+            "d. Meningkatkan efisiensi fotosintesis dan penyerapan karbon dioksida"
+        ],
+        "answer": "a. Meningkatkan efisiensi fotosintesis dan penyerapan karbon dioksida",
+        "details": " Ekosistem wetland pantai, seperti mangrove, salt marshes, dan seagrass, dapat menyimpan karbon di dalam tanaman dan tanah, sehingga dapat membantu mengurangi jumlah karbon dioksida di atmosfer.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": "Apa jenis aquaculture yang paling berkelanjutan?",
+        "choices": ["a. Pemeliharaan Ikan",
+            "b. Pemeliharaan Udang",
+            "c. Pemeliharaan Rumput Laut",
+            "d. Pemeliharaan Kerang"
+        ],
+        "answer": "c. Pemeliharaan Rumput Laut",
+        "details": "Pemeliharaan rumput laut merupakan aquaculture yang paling berkelanjutan karena rumput laut adalah tanaman laut yang dapat tumbuh dan berkembang biak dengan cepat, sehingga dapat dipanen secara berkelanjutan. Selain itu, Rumput laut memiliki kemampuan untuk menyimpan karbon di dalam jaringan mereka dan mengurangi pencemaran air laut dengan menyerap nutrisi yang berlebihan dari air.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": "Berapa jumlah lahan budidaya rumput laut pada tahun 2018?",
+        "choices": ["a. 0.19 juta hektar",
+            "b. 13.39 juta hektar",
+            "c.  25.14 juta hektar",
+            "d. 31.2 juta hektar"
+        ],
+        "answer": "a. 0.19 juta hektar",
+        "details": "",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": "Berapa jumlah potensial lahan untuk pengembangan budidaya rumput laut yang berkelanjutan pada tahun 2050?",
+        "choices": ["a. 0.19 juta hektar",
+            "b. 2.50–4.72 gigaton karbon dioksida",
+            "c. 13.39–25.14 juta hektar",
+            "d.  US$4.97–9.40 triliun"
+        ],
+        "answer": "c. 13.39–25.14 juta hektar",
+        "details": "Memperluas budidaya rumput laut berkelanjutan menjadi 13,39–25,14 juta hektar pada tahun 2050 dapat menyerap tambahan 2,50–4,72 gigaton karbon dioksida dan menciptakan bahan baku tambahan untuk solusi lain dengan biaya seumur hidup bersih sebesar US$4,97–9,40 triliun untuk tahun 2020–2050.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [2, 3],
+        "question": " Apa yang dimaksud dengan restorasi perairan?",
+        "choices": ["A. Membersihkan sampah plastik di tepi pantai",
+            "B. Memulihkan ekosistem perairan yang rusak",
+            "C. Melakukan pengolahan air minum",
+            "D. Membangun waduk untuk memperbesar volume air"
+        ],
+        "answer": "B. Memulihkan ekosistem perairan yang rusak",
+        "details": "Menurut Global Forest Watch, deforestasi dan degradasi hutan menyumbang sekitar 30% emisi gas rumah kaca di dunia.",
+        "images": "wetlands.jpg"
+    },
+
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Apa definisi pemanasan global?",
+        "choices": ["a. Peningkatan suhu rata-rata bumi dan atmosfernya",
+            "b. Penurunan suhu rata-rata bumi dan atmosfernya",
+            "c. Peningkatan kadar nitrogen di atmosfer bumi",
+            "d. Peningkatan kadar oksigen di atmosfer bumi"
+        ],
+        "answer": "a. Peningkatan suhu rata-rata bumi dan atmosfernya",
+        "details": "Pemanasan global merujuk pada peningkatan suhu rata-rata bumi dan atmosfernya, yang disebabkan oleh aktivitas manusia seperti pembakaran bahan bakar fosil dan penebangan hutan yang meningkatkan konsentrasi gas rumah kaca di atmosfer.",
+        "images": "general.jpg"
+    },
+
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Apa yang dimaksud dengan gas rumah kaca?",
+        "choices": ["a. Gas yang menyebabkan lapisan ozon menipis",
+            "b. Gas yang membantu mengatur suhu bumi dan atmosfernya",
+            "c. Gas yang ditemukan di dalam tanah dan batuan",
+            "d. Gas yang disebarkan oleh aktivitas vulkanik"
+        ],
+        "answer": "Gas yang membantu mengatur suhu bumi dan atmosfernya",
+        "details": "Gas rumah kaca seperti karbon dioksida, metana, dan gas lainnya membantu mengatur suhu bumi dan atmosfernya dengan menahan sebagian besar panas matahari yang dipantulkan kembali dari permukaan bumi.",
+        "images": "general.jpg"
+    },
+
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Penggunaan  CFC  pada  berbagai  produk  telah  banyak  dikurangi  karena  gas  ini dapat menimbulkan?",
+        "choices": ["a. Kanker",
+            "b. Hujan asam",
+            "c. Keracunan",
+            "d. Lubang ozon"
+        ],
+        "answer": "d. Lubang ozon",
+        "details": "Penggunaan CFC pada berbagai produk telah banyak dikurangi karena gas tersebut dapat menimbulkan penipisan lapisan ozon sehingga lama-kelamaan mengakibatkan adanya lubang ozon",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Gas  yang  dapat  menyebabkan  pengikatan  oksigen  terganggu  karena  gas  ini berikatan dengan hemoglobin pada darah adalah",
+        "choices": ["a. Hidrokarbon",
+            "b. Karbon monoksida",
+            "c. Karbon dioksida",
+            "d. Amonia"
+        ],
+        "answer": "b. Karbon monoksida",
+        "details": "Gas  karbonmonoksida  (CO)  mampu  berikatan  dengan  hemoglobin  dan membentuk COHb yang ikatannya 200 kali lebih kuat dibandingkan ikatan antara O₂ dengan Hb yang dapat berakibat kekurangan oksigen (O₂). Oleh karena itu, gas CO dapat menyebabkan ISPA (infeksi saluran pernapasan akut)",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Keuntungan penghijauan di kota-kota antara lain karena tanaman dapat…. ",
+        "choices": ["a. Mengikatkan gas N2",
+            "b. Menjaga keseimbangan banyaknya gas CO2, O2, dan N2",
+            "c. Mengikat CO2 di udara dan membebaskan O2",
+            "d. Menyerap limbah-limbah industry"
+        ],
+        "answer": "c. Mengikat CO2 di udara dan membebaskan O2",
+        "details": "Keuntungan kegiatan penghijauan karena tanaman dapat mengikat CO2 di udara dan membebaskan O2.",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Gas rumah kaca yang dihasilkan dari pembusukan sampah adalah",
+        "choices": ["a. CO2",
+            "b. CH4",
+            "c. CFC",
+            "d. N20"
+        ],
+        "answer": "b. CH4",
+        "details": "Gas  rumah  kaca  yang  dihasilkan  dari  pembusukan  sampah  adalah  gas  metana (CH4)",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Lapisan  atmosfer  yang  melindungi  bumi  dari  tembusnya  sinar  ultraviolet  dari matahari adalah",
+        "choices": ["a. Stratosfer",
+            "b. Litosfer",
+            "c. Ozon",
+            "d. Ionosfer"
+        ],
+        "answer": "c. Ozon",
+        "details": "Lapisan  atmosfer  yang  melindungi  bumi  dari  tembusnya  sinar  ultraviolet  dari matahari adalah lapisan ozon.",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Sumber emisi global yang menghasilkan gas karbon dioksida terbesar adalah",
+        "choices": ["a. Penggunaan gas alam ",
+            "b. Kilang minyak",
+            "c. Pembakaran batu bara",
+            "d. Kendaraan bermotor"
+        ],
+        "answer": "c. Pembakaran batu bara",
+        "details": "Sumber  emisi  global  yang  menghasilkan  gas  karbon  dioksida  terbesar  adalah pembakaran  batu  bara.  Sedangkan  kendaraan  bermotor  merupakan  sumber penghasil gas CO2 terbesar kedua.",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Semakin  tinggi  lapisan  stratosfer  maka  semakin  meningkat  suhunya.  Hal  ini disebabkan oleh",
+        "choices": ["a. Kalor yang dibebaskan oleh penyerapan radiasi ultraviolet oleh O2 dan O3",
+            "b. Intensitas sinar matahari yang sangat kuat di stratosfer",
+            "c. Aliran pancaran angin menghasilkan kalor gesekan",
+            "d. Tingkat uap air tinggi sehingga menyimpan panas"
+        ],
+        "answer": "a. Kalor yang dibebaskan oleh penyerapan radiasi ultraviolet oleh O2 dan O3",
+        "details": "Semakin  tinggi  lapisan  stratosfer  maka  semakin  meningkat  suhunya.  Hal  ini disebabkan oleh  Kalor  yang dibebaskan  oleh penyerapan radiasi ultraviolet  oleh O2 dan O3.",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Fungsi lapisan ozon ialah",
+        "choices": ["a. Membantu kehidupan manusia",
+            "b. Melindungi bumi dari meteor",
+            "c. Menyaring radiasi sinar matahari ",
+            "d. Menjaga suhu bumi agar tetap stabil"
+        ],
+        "answer": "d. Menjaga suhu bumi agar tetap stabil",
+        "details": "",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Satu masalah yang timbul akibat polusi chlorofluorocarbon (CFC) adalah",
+        "choices": ["a. Meningkatnya kanker kulit pada manusia",
+            "b. Merusak sel-sel darah mera",
+            "c. Eutrofikasi",
+            "d. Pergerakan racun menuju perairan yang dapat meracuni ikan"
+        ],
+        "answer": "a. Meningkatnya kanker kulit pada manusia",
+        "details": "Satu  masalah  yang  timbul  akibat  polusi  chlorofluorocarbon  (CFC)  adalah meningkatnya  penyakit  kanker  kulit  pada  manusia.  CFC  akan  berdampak  pada menipisnya  lapisan  ozon  sehingga  lapisan  ozon  tidak  mampu  menyerap  sinar ultraviolet. Sinar ultraviolet merupakan faktor pemicu terjadinya kanker kulit.",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Alat  yang  digunakan  untuk  mengurangi  produksi  gas  karbon  monoksida  dan hidrokarbon dari hasil pembakaran kendaraan bermotor adalah",
+        "choices": ["a. Cyclone separator  ",
+            "b. Wet scrubber",
+            "c. Electrostatic precipitator",
+            "d. Catalytic converter"
+        ],
+        "answer": "d. Catalytic converter",
+        "details": "Produksi  gas  karbon  monoksida  dan  hidrokarbon  dari  hasil  pembakaran kendaraan  bermotor  dapat  dikurangi  dengan  cara  memasang  alat  pengubah katalitik (catalytic converter) untuk menyempurnakan pembakaran. ",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Mekanisme  efek  rumah  kaca  yang  normal  sebenarnya  sangat  diperlukan  bagi kehidupan di bumi karena",
+        "choices": ["a. Mengurangi polusi udara ",
+            "b. Menghangatkan suhu bumi sehingga nyaman untuk ditinggali",
+            "c. Menghambat radiasi untuk atmosfer bumi",
+            "d. Mencegah lubang ozon"
+        ],
+        "answer": "b. Menghangatkan suhu bumi sehingga nyaman untuk ditinggali",
+        "details": "Mekanisme  efek  rumah  kaca  yang  normal  sebenarnya  sangat  diperlukan  bagi kehidupan  di  bumi  karena  menghangatkan  suhu  bumi  sehingga  nyaman  untuk ditinggali. Tanpa adanya efek rumah kaca, suhu di bumi akan dingin.",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Dibawah ini yang tergolong gas rumah kaca adalah",
+        "choices": ["a. Karbon dioksida, metana, CFC dan oksigen",
+            "b. Karbon dioksida, metana, CFC dan ozon",
+            "c. Karbon dioksida, metana, CFC dan nitrogen",
+            "d. Metana, CFC, oksigen dan uap air"
+        ],
+        "answer": "Karbon dioksida, metana, CFC dan nitrogen",
+        "details": "",
+        "images": "general.jpg"
+    },
+
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Berapa konsentrasi karbon dioksida di udara pada tahun 2021?",
+        "choices": ["a. 350 ppm",
+            "b. 410 ppm",
+            "c. 450 ppm",
+            "d. 510 ppm"
+        ],
+        "answer": "b. 410 ppm",
+        "details": "Konsentrasi karbon dioksida (CO2) di udara pada tahun 2021 adalah sekitar 417 ppm (parts per million), berdasarkan data dari Mauna Loa Observatory di Hawaii. ",
+        "images": "general.jpg"
+    },
+
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Apa kepanjangan dari ppm?",
+        "choices": ["a. Parts per million",
+            "b. Percent per million",
+            "c. Per parts million",
+            "d. Parts percent million"
+        ],
+        "answer": "a. Parts per million",
+        "details": "PPM (Parts Per Million) adalah satuan yang digunakan untuk mengukur konsentrasi suatu zat di udara, air, atau bahan lainnya. PPM pertama kali digunakan pada tahun 1870 oleh seorang kimiawan bernama John Tyndall untuk mengukur konsentrasi gas-gas rumah kaca di atmosfer bumi",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Apa yang dimaksud dengan efek albedo?",
+        "choices": ["a. Reflektivitas permukaan bumi",
+            "b. Pencahayaan matahari pada permukaan bumi",
+            "c. Pencahayaan bintang pada permukaan bumi",
+            "d. Perubahan konsentrasi gas di atmosfer"
+        ],
+        "answer": "a. Reflektivitas permukaan bumi",
+        "details": "Efek albedo adalah kemampuan permukaan bumi untuk memantulkan cahaya matahari. Permukaan yang lebih terang, seperti es dan salju, memiliki albedo yang lebih tinggi dan memantulkan lebih banyak",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Pemanasan global akan meningkatkan suhu lautan. Kondisi ini dapat menyebabkan terjadinya",
+        "choices": ["a. turunnya batas permukaan air laut",
+            "b. pemutihan terumbu karang (coral bleaching)",
+            "c. meningkatnya tingkat keasaman air laut",
+            "d. meningkatnya kadar garam air laut"
+        ],
+        "answer": "b. pemutihan terumbu karang (coral bleaching)",
+        "details": "Pemanasan global akan meningkatkan suhu lautan. Kondisi ini dapat menyebabkan terjadinya pemutihan terumbu karang (coral bleaching) atau hilangnya alga zooxanthella pada terumbu karang.",
+        "images": "general.jpg"
+    },
+
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Berikut kebijakan yang bisa diambil sebuah negara untuk mengurangi dampak pemanasan global, kecuali ....",
+        "choices": ["a. memberikan pajak tinggi pada kendaraan bermotor",
+            "b. melakukan pembangunan PLTS dan PLTB",
+            "c. memberikan subsidi minyak tanah",
+            "d. memberikan insentif penggunaan kendaraan umum"
+        ],
+        "answer": "c. memberikan subsidi minyak tanah",
+        "details": "",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "What type of algae is found inside corals?",
+        "choices": ["a. Zooxanthellae",
+            "b. Wakame",
+            "c. Bladder wrack",
+            "d. Giant Kelp"
+        ],
+        "answer": "a. Zooxanthellae",
+        "details": "Halaman 42 LKS Fisika Semester 2",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Manakah yang paling menggambarkan El Niño?",
+        "choices": ["a. Air di Samudra Pasifik menjadi lebih hangat dari biasanya dan menyebabkan lebih sedikit badai yang terbentuk.",
+            "b. Air di Samudra Pasifik menjadi lebih dingin dari biasanya dan menyebabkan lebih banyak badai terbentuk.",
+            "c. Air di Samudra Pasifik menjadi lebih dingin dari biasanya, dan aliran aliran jet terganggu.",
+            "d. Air di Samudra Pasifik menjadi lebih hangat dari biasanya, dan aliran jet stream terganggu sehingga air yang lebih hangat bergerak lebih jauh ke timur menuju Amerika."
+        ],
+        "answer": "d. Air di Samudra Pasifik menjadi lebih hangat dari biasanya, dan aliran jet stream terganggu sehingga air yang lebih hangat bergerak lebih jauh ke timur menuju Amerika.",
+        "details": "",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 28, 29, 31, 32],
+        "question": "Apa yang menyebabkan La Nina?",
+        "choices": ["a. pendinginan air di Samudra Atlantik lepas pantai Amerika Selatan",
+            "b. pendinginan air di lepas pantai Atlantik AS",
+            "c. pendinginan air di Samudra Pasifik lepas pantai Amerika Selatan",
+            "d. air hangat di Samudra Pasifik lepas pantai Amerika Selatan"
+        ],
+        "answer": "d. air hangat di Samudra Pasifik lepas pantai Amerika Selatan",
+        "details": "",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [3, 4],
+        "question": "Apa itu HFC?",
+        "choices": ["a. Hydrofluorocarbon",
+            "b. Hydrocarbon",
+            "c. Hydrochlorofluorocarbon",
+            "d. Hydrogen Fluoride"
+        ],
+        "answer": "a. Hydrofluorocarbon",
+        "details": "",
+        "images": "general.jpg"
+    },
+    {
+        "numbers": [3, 4],
+        "question": "Apa itu CFC?",
+        "choices": ["a. Chlorofluorocarbon",
+            "b. Carbon Fiber Composite",
+            "c. Carbon Fiber Cloth",
+            "d. Chlorine Fluoride"
+        ],
+        "answer": "a. Chlorofluorocarbon",
+        "details": "",
+        "images": "tabung.jpg"
+    },
+    {
+        "numbers": [3, 4],
+        "question": "Apa yang membuat HFC dan CFC berbahaya bagi lingkungan?",
+        "choices": ["a. Meningkatkan pemanasan global",
+            "b. Menipiskan lapisan ozon",
+            "c. Mengurangi kualitas udara",
+            "d. Meningkatkan efek rumah kaca"
+        ],
+        "answer": "b. Menipiskan lapisan ozon",
+        "details": "",
+        "images": "tabung.jpg"
+    }, {
+        "numbers": [3, 4],
+        "question": "Apa alternatif lain yang sedang dikembangkan untuk menggantikan HFC dan CFC?",
+        "choices": ["a. HCFC",
+            "b. HFO",
+            "c. HMF",
+            "d. HGF"
+        ],
+        "answer": "b. HFO",
+        "details": "",
+        "images": "tabung.jpg"
+    }, {
+        "numbers": [3, 5],
+        "question": "Ambil kartu",
+        "choices": [],
+        "answer": "",
+        "details": "",
+        "images": ""
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa yang dimaksud dengan '3R' dalam reduce sampah?",
+        "choices": ["a. Reduce, reuse, recycle",
+            "b. Repair, reduce, recycle",
+            "c. Reuse, refuse, recycle",
+            "d. Reduce, recycle, restore "
+        ],
+        "answer": "a. Reduce, reuse, recycle",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa yang dimaksud dengan 'zero waste'?",
+        "choices": ["a. Tidak ada limbah sama sekali",
+            "b. Mengurangi limbah menjadi 50%",
+            "c. Mengurangi sampah organik",
+            "d. Mengubah sampah menjadi energi"
+        ],
+        "answer": "a. Tidak ada limbah sama sekali",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa yang dimaksud dengan 'upcycling'?",
+        "choices": ["a. Memperbaiki barang agar bisa digunakan kembali",
+            "b. Mengubah barang yang tidak terpakai menjadi barang baru dengan nilai tambah",
+            "c. Mengubah limbah menjadi energi",
+            "d. Menjual barang bekas dengan harga murah"
+        ],
+        "answer": "b. Mengubah barang yang tidak terpakai menjadi barang baru dengan nilai tambah",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa yang dimaksud dengan kampanye 'plogging'?",
+        "choices": ["a. Kampanye membersihkan pantai dari sampah",
+            "b. Kampanye membersihkan sungai dari sampah",
+            "c. Kampanye membersihkan jalan dari sampah sambil jogging",
+            "d. Kampanye membersihkan lingkungan dari sampah secara massal"
+        ],
+        "answer": "c. Kampanye membersihkan jalan dari sampah sambil jogging",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa yang dimaksud dengan biodegradable?",
+        "choices": ["a. Benda yang tidak bisa terurai oleh alam",
+            "b. Benda yang bisa terurai oleh alam dengan waktu yang sangat lama",
+            "c. Benda yang bisa terurai oleh alam dalam waktu singkat",
+            "d. Benda yang bisa terurai oleh alam dengan bantuan teknologi"
+        ],
+        "answer": "b. Benda yang bisa terurai oleh alam dengan waktu yang sangat lama",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa yang dimaksud dengan prinsip reduce dalam upaya mengurangi sampah dalam pemanasan global?",
+        "choices": ["a. Memilah sampah sesuai jenisnya",
+            "b. Mengurangi konsumsi barang dan menghindari penggunaan produk sekali pakai",
+            "c. Memanfaatkan kembali barang bekas",
+            "d. Memproses sampah menjadi bahan bakar alternatif"
+        ],
+        "answer": "b. Mengurangi konsumsi barang dan menghindari penggunaan produk sekali pakai",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa manfaat dari penggunaan kantong belanja kain yang dapat digunakan kembali?",
+        "choices": ["a. Mengurangi sampah plastik",
+            "b. Menjaga kualitas produk yang dihasilkan",
+            "c. Meningkatkan daya tahan produk kain",
+            "d. Menghemat biaya produksi"
+        ],
+        "answer": "a. Mengurangi sampah plastik",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Apa keuntungan dari penggunaan produk yang memiliki sertifikasi ramah lingkungan seperti label eco-friendly atau FSC?",
+        "choices": ["a. Mengurangi dampak negatif terhadap lingkungan",
+            "b. Meningkatkan kualitas produk",
+            "c. Meningkatkan daya tahan produk",
+            "d. Menghemat biaya produksi"
+        ],
+        "answer": "a. Mengurangi dampak negatif terhadap lingkungan",
+        "details": "",
+        "images": "sampah.jpg"
+    },
+    {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Salah satu langkah untuk mengurangi sampah dalam upaya reduce sampah adalah dengan melakukan pengolahan sampah. Jenis pengolahan sampah yang tepat untuk mengurangi sampah plastik adalah:",
+        "choices": ["a. Pengomposan",
+            "b. Pengendapan",
+            "c.  Pembakaran",
+            "d. Daur ulang"
+        ],
+        "answer": "d. Daur ulang",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [3, 6, 20, 21, 23],
+        "question": "Sebuah perusahaan pengolahan sampah mengelola sampah dengan cara memilah dan memprosesnya menjadi bahan baku baru. Langkah yang tepat dalam proses pengolahan sampah menjadi bahan baku baru adalah:",
+        "choices": ["a. Pemilahan → Pengomposan → Daur ulang",
+            "b. Pemilahan → Pembakaran → Pengomposan",
+            "c. Pemilahan → Daur ulang → Pembakaran",
+            "d. Pemilahan → Daur ulang → Pengolahan kimia"
+        ],
+        "answer": "d. Pemilahan → Daur ulang → Pengolahan kimia",
+        "details": "",
+        "images": "sampah.jpg"
+    }, {
+        "numbers": [7, 14, 18, 28],
+        "question": "Anda mendapatkan penambahan poin",
+        "choices": [],
+        "answer": "",
+        "details": "",
+        "images": "sampah.jpg"
     }
 ]
